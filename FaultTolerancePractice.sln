@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaultTolerancePractice", "FaultTolerancePractice\FaultTolerancePractice.csproj", "{0A769B8C-E71E-48A8-AD6F-AE71E4D9866E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice", "Microservice\Microservice.csproj", "{3CA0A590-2630-46F1-A25B-6F6EBACDD84E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A769B8C-E71E-48A8-AD6F-AE71E4D9866E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A769B8C-E71E-48A8-AD6F-AE71E4D9866E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A769B8C-E71E-48A8-AD6F-AE71E4D9866E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A769B8C-E71E-48A8-AD6F-AE71E4D9866E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA0A590-2630-46F1-A25B-6F6EBACDD84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA0A590-2630-46F1-A25B-6F6EBACDD84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA0A590-2630-46F1-A25B-6F6EBACDD84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA0A590-2630-46F1-A25B-6F6EBACDD84E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67EE1614-AD60-4E6D-B4DE-AD973DFF0E35}
+	EndGlobalSection
+EndGlobal
