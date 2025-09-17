@@ -16,7 +16,7 @@ builder.Services
     {
         client.BaseAddress = new Uri($"http://localhost:5183");
     })
-    .AddPolicyHandler(builder.Services.BuildServiceProvider().GetRequiredService<IMicroServicePolicies>().GetRetryPolicy());
+    .AddPolicyHandler(builder.Services.BuildServiceProvider().GetRequiredService<IMicroServicePolicies>().GetCombinedPolicy());
 
 
 
