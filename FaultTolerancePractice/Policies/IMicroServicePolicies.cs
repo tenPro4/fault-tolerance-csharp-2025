@@ -7,6 +7,8 @@ namespace FaultTolerancePractice.Policies
         IAsyncPolicy<HttpResponseMessage> GetRetryPolicy();
         IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy();
         IAsyncPolicy<HttpResponseMessage> GetTimeoutPolicy();
+        IAsyncPolicy<HttpResponseMessage> GetFallbackPolicy();
+        IAsyncPolicy<HttpResponseMessage> GetBulkheadIsolationPolicy();
         IAsyncPolicy<HttpResponseMessage> GetCombinedPolicy();
     }
 }
